@@ -7,13 +7,6 @@
     android:background="#81A4CD"
     tools:context=".SecondFragment">
 
-    <TextView
-        android:id="@+id/textview_second"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@id/button_second"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <!--    <Button-->
     <!--        android:id="@+id/button_second"-->
     <!--        android:layout_width="wrap_content"-->
@@ -29,7 +22,7 @@
     <!--        app:layout_constraintVertical_bias="0.4" />-->
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/edit_text_border"
@@ -47,7 +40,7 @@
         tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/edit_text_border"
@@ -60,7 +53,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/email"
         app:layout_constraintVertical_bias="0.063"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TextContrastCheck" />
 
@@ -82,7 +75,7 @@
         tools:ignore="TextContrastCheck" />
 
     <Button
-        android:id="@+id/button_login"
+        android:id="@+id/LOGIN"
         android:layout_width="93dp"
         android:layout_height="48dp"
         android:fontFamily="@font/noto_sans_bold"
@@ -92,7 +85,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintTop_toBottomOf="@+id/password"
         app:layout_constraintVertical_bias="0.102"
         tools:ignore="TextContrastCheck" />
 
