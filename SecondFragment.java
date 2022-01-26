@@ -1,47 +1,93 @@
 package com.example.healthpoint;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.view.LayoutInflater;
+import android.text.TextUtils;
 import android.view.View;
-import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ProgressBar;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.fragment.app.Fragment;
-import androidx.navigation.fragment.NavHostFragment;
+import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.healthpoint.databinding.FragmentSecondBinding;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
 
-public class SecondFragment extends Fragment {
+import java.util.Objects;
 
-    private FragmentSecondBinding binding;
+public class SecondFragment extends AppCompatActivity {
+
+    EditText Email,Password;
+    Button LoginButton;
+    ProgressBar loading;
+    TextView RegisterPg;
+    FirebaseAuth fAuth;
 
     @Override
-    public View onCreateView(
-            LayoutInflater inflater, ViewGroup container,
-            Bundle savedInstanceState
-    ) {
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.fragment_second);
 
-        binding = FragmentSecondBinding.inflate(inflater, container, false);
-        return binding.getRoot();
+        Email = findViewById(R.id.email);
+        Password = findViewById(R.id.password);
+        LoginButton = findViewById(R.id.LOGIN);
+        loading = findViewById(R.id.loading);
+        RegisterPg = findViewById(R.id.registerPg);
+        fAuth = FirebaseAuth.getInstance();
 
-    }
-
-    public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-
-        binding.buttonLogin.setOnClickListener(new View.OnClickListener() {
+        LoginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                NavHostFragment.findNavController(SecondFragment.this)
-                        .navigate(R.id.action_SecondFragment_to_FirstFragment);
+
+                String e = Email.getText().toString().trim();
+                String passWord = Password.getText().toString().trim();
+
+                if (TextUtils.isEmpty(e)) {
+                    Email.setError("Email is required!");
+                    return;
+                }
+
+                if (TextUtils.isEmpty(passWord)) {
+                    Password.setError("Password is required!");
+                    return;
+                }
+
+
+                if (passWord.length() < 6) {
+                    Password.setError("Password must be >= 6 characters.");
+                    return;
+                }
+
+                loading.setVisibility(View.VISIBLE);
+
+                fAuth.signInWithEmailAndPassword(e, passWord).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()) {
+                            Toast.makeText(SecondFragment.this, "Login successfully.", Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(getApplicationContext(), AppointmentPage.class));
+                        } else {
+                            Toast.makeText(SecondFragment.this, "Error!" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                            loading.setVisibility(View.GONE);
+                        }
+                    }
+                });
+
+            }
+
+        });
+
+        RegisterPg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), Register.class));
             }
         });
-    }
 
-    @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-        binding = null;
     }
-
 }
