@@ -41,7 +41,7 @@
         tools:ignore="TextContrastCheck" />
 
     <Button
-        android:id="@+id/LOGIN"
+        android:id="@+id/loginPg"
         android:layout_width="93dp"
         android:layout_height="48dp"
         android:text="@string/next"
