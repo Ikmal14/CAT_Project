@@ -17,7 +17,7 @@ public class FirstFragment extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_first);
 
-        LoginBtn = findViewById(R.id.loginPg);
+        LoginBtn = findViewById(R.id.LoginPG);
 
         LoginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
