@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#748CAB"
+    tools:context=".feedback">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/noto_sans_bold"
+        android:text="@string/feedback"
+        android:textColor="#FFFDFD"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.097" />
+
+
+    <EditText
+        android:id="@+id/EditText02"
+        android:layout_width="326dp"
+        android:layout_height="303dp"
+        android:background="@drawable/edit_text_border"
+        android:gravity="top|left"
+        android:hint="@string/patient"
+        android:inputType="textMultiLine"
+        android:lines="10"
+        android:scrollHorizontally="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.359"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="121dp"
+        android:layout_height="58dp"
+        android:fontFamily="@font/noto_sans_bold"
+        android:text="@string/submit"
+        android:textColor="#1F2751"
+        android:textSize="16sp"
+        app:backgroundTint="#EDE1E1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditText02"
+        app:layout_constraintVertical_bias="0.217" />
+    <!--    <EditText-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:gravity="top|start"-->
+    <!--        android:inputType="textMultiLine"-->
+    <!--        android:lines="8"-->
+    <!--        android:maxLines="10"-->
+    <!--        android:minLines="6"-->
+    <!--        android:scrollbars="vertical"-->
+    <!--        tools:ignore="SpeakableTextPresentCheck"-->
+    <!--        tools:layout_editor_absoluteX="42dp"-->
+    <!--        tools:layout_editor_absoluteY="251dp" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/editTextTextMultiLine"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:ems="15"-->
+    <!--        android:gravity="start|top"-->
+    <!--        android:inputType="textMultiLine"-->
+    <!--        android:minHeight="100dp"-->
+    <!--        tools:ignore="SpeakableTextPresentCheck"-->
+    <!--        tools:layout_editor_absoluteX="61dp"-->
+    <!--        tools:layout_editor_absoluteY="231dp" />-->
+
+
+    <!--        android:hint="@string/password"-->
+</androidx.constraintlayout.widget.ConstraintLayout>
