@@ -1,4 +1,4 @@
-package com.example.healthpoint;
+package com.example.healthpoint_final;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -23,7 +23,7 @@ import java.util.Objects;
 public class SecondFragment extends AppCompatActivity {
 
     EditText Email,Password;
-    Button LoginButton;
+    Button LoginButton,Back;
     ProgressBar loading;
     TextView RegisterPg;
     FirebaseAuth fAuth;
@@ -38,6 +38,7 @@ public class SecondFragment extends AppCompatActivity {
         LoginButton = findViewById(R.id.LOGIN);
         loading = findViewById(R.id.loading);
         RegisterPg = findViewById(R.id.registerPg);
+        Back = findViewById(R.id.button_second)
         fAuth = FirebaseAuth.getInstance();
 
         LoginButton.setOnClickListener(new View.OnClickListener() {
@@ -80,6 +81,13 @@ public class SecondFragment extends AppCompatActivity {
 
             }
 
+        });
+
+        Back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), FirstFragment.class));
+            }
         });
 
         RegisterPg.setOnClickListener(new View.OnClickListener() {
