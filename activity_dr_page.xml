@@ -27,7 +27,7 @@
         tools:ignore="TextContrastCheck" />
 
     <Button
-        android:id="@+id/button_pending"
+        android:id="@+id/viewAppointment"
         android:layout_width="285dp"
         android:layout_height="44dp"
         android:layout_marginTop="24dp"
@@ -50,7 +50,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_pending"
+        app:layout_constraintTop_toBottomOf="@+id/viewAppointment"
         tools:ignore="TextContrastCheck" />
 
     <ImageView
