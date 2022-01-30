@@ -9,6 +9,7 @@ import android.widget.Button;
 
 public class USER_page extends AppCompatActivity {
     Button buttonSet, buttonShow, logOut;
+    com.google.android.material.floatingactionbutton.FloatingActionButton info;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,13 +27,21 @@ public class USER_page extends AppCompatActivity {
             }
         });
 
-//        buttonShow.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent i = new Intent(USER_page.this, ShowAppointment.class);
-//                startActivity(i);
-//            }
-//        });
+        info.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(USER_page.this, Info.class);
+                startActivity(i);
+            }
+        });
+
+        buttonShow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(USER_page.this, ShowAppointment.class);
+                startActivity(i);
+            }
+        });
 
         logOut.setOnClickListener(new View.OnClickListener() {
             @Override
