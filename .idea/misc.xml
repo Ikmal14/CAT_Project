@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/amirp.MSI/Documents/HEALTHPOINT_FINAL1/app/src/main/res/layout/activity_appointment_page.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/amirp.MSI/Documents/HEALTHPOINT_FINAL1/app/src/main/res/layout/activity_choose_date.xml" value="0.14375" />
+        <entry key="..\:/Users/amirp.MSI/Documents/HEALTHPOINT_FINAL1/app/src/main/res/layout/activity_dr_page.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/amirp.MSI/Documents/HEALTHPOINT_FINAL1/app/src/main/res/layout/activity_feedback.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/amirp.MSI/Documents/HEALTHPOINT_FINAL1/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/amirp.MSI/Documents/HEALTHPOINT_FINAL1/app/src/main/res/layout/activity_set_appointment.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/amirp.MSI/Documents/HEALTHPOINT_FINAL1/app/src/main/res/layout/activity_show_appointment.xml" value="0.2" />
+        <entry key="..\:/Users/amirp.MSI/Documents/HEALTHPOINT_FINAL1/app/src/main/res/layout/content_main.xml" value="0.14375" />
+        <entry key="..\:/Users/amirp.MSI/Documents/HEALTHPOINT_FINAL1/app/src/main/res/layout/dr_check_appointment.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/amirp.MSI/Documents/HEALTHPOINT_FINAL1/app/src/main/res/layout/dr_check_card.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/amirp.MSI/Documents/HEALTHPOINT_FINAL1/app/src/main/res/layout/fragment_first.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/amirp.MSI/Documents/HEALTHPOINT_FINAL1/app/src/main/res/layout/fragment_second.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/amirp.MSI/Documents/HEALTHPOINT_FINAL1/app/src/main/res/layout/scrolling.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/amirp.MSI/Documents/HEALTHPOINT_FINAL1/app/src/main/res/layout/set_appointment_approve.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/amirp.MSI/Documents/HEALTHPOINT_FINAL1/app/src/main/res/layout/set_appointment_card.xml" value="0.1793478260869565" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

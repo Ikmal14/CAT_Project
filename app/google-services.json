@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1054559750857",
+    "firebase_url": "https://healthpoint-0001-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "healthpoint-0001",
+    "storage_bucket": "healthpoint-0001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054559750857:android:d14ea7421cdd3a8d75db18",
+        "android_client_info": {
+          "package_name": "com.example.healthpoint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054559750857-rgrbfla2jdkt4jlpo9bjhsamcdkfb0ig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7UWAIaRDneDAViieWWEsuWe25hvWC0wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054559750857-rgrbfla2jdkt4jlpo9bjhsamcdkfb0ig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054559750857:android:c7c332e1182ad38a75db18",
+        "android_client_info": {
+          "package_name": "com.example.healthpoint_final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054559750857-rgrbfla2jdkt4jlpo9bjhsamcdkfb0ig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7UWAIaRDneDAViieWWEsuWe25hvWC0wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054559750857-rgrbfla2jdkt4jlpo9bjhsamcdkfb0ig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
