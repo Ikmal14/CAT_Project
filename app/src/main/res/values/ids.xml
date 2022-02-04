@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="datePicker" type="id" />
+    <item name="set" type="id" />
+    <item name="editDate" type="id" />
+    <item name="myAppointment" type="id" />
+    <item name="ShowAppointment" type="id" />
+</resources>

@@ -1,0 +1,86 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">HealthPoint</string>
+    <string name="action_about">About</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">HealthPoint USM</string>
+    <string name="second_fragment_label">Log In Page</string>
+
+    <string name="next">LOG IN</string>
+    <string name="previous">BACK</string>
+    <string name="logout">LOG OUT</string>
+    <string name="set">SET APPOINTMENT</string>
+    <string name="my">MY APPOINTMENT</string>
+
+
+    <string name="hello_first_fragment">HealthPoint USM</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="about">About</string>
+    <string name="info">HealthPoint USM is a medical health application that enables the students of USM Induk to set an appointment with Pusat Sejahtera, check on their previous appointment history and feedbacks of the visit from the doctor.</string>
+
+    <string name="pending">UPCOMING APPOINTMENT</string>
+    <string name="appointment">Appointment</string>
+    <string name="Date">Date</string>
+    <string name="Name">NAME</string>
+    <string name="Matriks">MATRIC</string>
+    <string name="Time">Time</string>
+    <string name="details">Appointment\nDetails</string>
+    <string name="date">DATE</string>
+    <string name="time">TIME</string>
+    <string name="appset">Appointment Set!</string>
+    <string name="submit">SUBMIT</string>
+    <string name="pendingdr">Pending Appointment</string>
+    <string name="appMy">My Appointment</string>
+    <string name="appDeet">DETAILS</string>
+    <string name="appNew">FEEDBACK</string>
+
+    <string name="email">\t@student.usm.my</string>
+    <string name="password">\tPassword</string>
+
+    <string name="usm">Universiti Sains Malaysia</string>
+    <string name="u">UPCOMING APPOINTMENT</string>
+
+    <string name="alya">Alya Adlina\n153650\n\nBachelor of Computer Science (Honours) Programme,\nMinoring in Management\n</string>
+    <!--    <string name="matric1">153650</string>-->
+    <!--    <string name="email1">alyamarican@student.usm.my</string>-->
+
+    <string name="anis">Anis Nabila\n153597\n\nBachelor of Computer Science (Honours) Programme,\nMinoring in Management\n</string>
+    <!--    <string name="matric2">153597</string>-->
+    <!--    <string name="email2">anisnabila@student.usm.my</string>-->
+
+    <string name="ikmal">Ikmal Hakim\n153114\n\nBachelor of Computer Science (Honours) Programme,\nMinoring in Management\n</string>
+    <!--    <string name="matric3">153114</string>-->
+    <!--    <string name="email3">ikmalhakim0514@student.usm.my</string>-->
+
+    <string name="amir">Amir Azizi\n153034\n\nBachelor of Computer Science (Honours) Programme,\nMinoring in New Media and Technology\n</string>
+    <!--    <string name="matric4">153034</string>-->
+    <!--    <string name="email4">amirazizi@student.usm.my</string>-->
+
+    <string name="venue">VENUE : PUSAT SEJAHTERA, KAMPUS INDUK</string>
+
+    <string name="feedback">FEEDBACK</string>
+    <string name="time1">11.00 a.m</string>
+    <string name="patient">\n\t\tPatient\'s condition, medications, etc…</string>
+
+
+    <!--    <string name="title_activity_scrolling_about">ScrollingAbout</string>-->
+    <string name="action_settings">About</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="todo" tools:ignore="DuplicateDefinition">TODO</string>
+    <string name="description">Description</string>
+    <string name="what_disease_where_is_the_pain_etc">What disease, where is the pain, etc ...</string>
+    <string name="describe_how_you_feel">Describe How You Feel</string>
+
+
+    <!--   drop down-->
+
+
+</resources>

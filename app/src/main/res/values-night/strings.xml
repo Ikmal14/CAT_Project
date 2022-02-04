@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">Description</string>
+    <string name="what_disease_where_is_the_pain_etc">What disease, where is the pain, etc ...</string>
+    <string name="describe_how_you_feel">Describe How You Feel</string>
+</resources>

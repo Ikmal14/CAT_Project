@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidApps/SetAppornment/app/src/main/res/layout/acitivity_setappointment.xml" value="0.3625" />
+        <entry key="..\:/AndroidApps/SetAppornment/app/src/main/res/layout/activity_dr_page.xml" value="0.26296296296296295" />
+        <entry key="..\:/AndroidApps/SetAppornment/app/src/main/res/layout/activity_feedback.xml" value="0.2824074074074074" />
+        <entry key="..\:/AndroidApps/SetAppornment/app/src/main/res/layout/activity_login.xml" value="0.18541666666666667" />
+        <entry key="..\:/AndroidApps/SetAppornment/app/src/main/res/layout/activity_main.xml" value="0.18541666666666667" />
+        <entry key="..\:/AndroidApps/SetAppornment/app/src/main/res/layout/activity_my_appointment.xml" value="0.26296296296296295" />
+        <entry key="..\:/AndroidApps/SetAppornment/app/src/main/res/layout/activity_show_appointment.xml" value="0.26296296296296295" />
+        <entry key="..\:/AndroidApps/SetAppornment/app/src/main/res/layout/activity_show_my_appointment.xml" value="0.18541666666666667" />
+        <entry key="..\:/AndroidApps/SetAppornment/app/src/main/res/layout/activity_upcoming_appointment.xml" value="0.26296296296296295" />
+        <entry key="..\:/AndroidApps/SetAppornment/app/src/main/res/layout/activity_user_page.xml" value="0.18541666666666667" />
+        <entry key="..\:/AndroidApps/SetAppornment/app/src/main/res/layout/card_alya.xml" value="0.26296296296296295" />
+        <entry key="..\:/AndroidApps/SetAppornment/app/src/main/res/layout/dr_check_appointment.xml" value="0.26296296296296295" />
+        <entry key="..\:/AndroidApps/SetAppornment/app/src/main/res/layout/dr_check_card-layout.xml" value="0.26296296296296295" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "865735756769",
+    "firebase_url": "https://cat201-7fa06-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "cat201-7fa06",
+    "storage_bucket": "cat201-7fa06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865735756769:android:ad255ce988e5fce70c20a0",
+        "android_client_info": {
+          "package_name": "com.example.cat201"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865735756769-44d7nmboosopmtgapdaofddo5iegsrsp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpM_dU8yVcI54WZMQW9kvLYYn4hw0tEXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865735756769-44d7nmboosopmtgapdaofddo5iegsrsp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865735756769:android:303547ae70e1eb380c20a0",
+        "android_client_info": {
+          "package_name": "com.example.moduleuser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865735756769-44d7nmboosopmtgapdaofddo5iegsrsp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpM_dU8yVcI54WZMQW9kvLYYn4hw0tEXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865735756769-44d7nmboosopmtgapdaofddo5iegsrsp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865735756769:android:f09713fd2d081e8b0c20a0",
+        "android_client_info": {
+          "package_name": "com.example.HealthPointUSM"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865735756769-44d7nmboosopmtgapdaofddo5iegsrsp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpM_dU8yVcI54WZMQW9kvLYYn4hw0tEXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865735756769-44d7nmboosopmtgapdaofddo5iegsrsp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
